@@ -1,0 +1,15 @@
+[project]
+name = "A01_pymsis"
+version = "0.1.0"
+description = "My modified version of PyMSIS for future also"
+authors = [{name = "Lindsay Landman", email = "ltlandman@tudelft.nl"}]
+requires-python = ">=3.6"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["A01_pymsis"]
